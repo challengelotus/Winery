@@ -8,6 +8,9 @@ import jakarta.jws.soap.SOAPBinding.Style;
 @WebService
 @SOAPBinding(style = Style.DOCUMENT)
 public interface WineStockService {
+    @WebMethod
     String getMenu();
+
+    @WebMethod
     String placeOrder(String name, int quantity);
 }

@@ -21,5 +21,9 @@ public class ApplicationClient2 {
 
         String order = wineStockService.placeOrder("Vinho Tinto", 2);
         System.out.println(order);
+
+        URL url2 = new URL("http://localhost:8086/WineWarningService?wsdl");
+        QName qName2 = new QName("http://winery.fiap.com.br/", "WineWarningServiceImplService");
+        Service service2 = Service.create(url2, qName2);
     }
 }

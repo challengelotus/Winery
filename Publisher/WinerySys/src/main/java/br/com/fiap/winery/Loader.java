@@ -10,6 +10,6 @@ public class Loader {
         Endpoint.publish(url, wineStock);
 
         System.out.println("Serviço publicado!");
-        System.out.println("Acesse o WSDL em: " + url + "?wsdl");
+
     }
 }

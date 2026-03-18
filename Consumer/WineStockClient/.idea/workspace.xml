@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9caf155-38b5-46b0-bb67-eb68acccead7" name="Changes" comment="criando classe ApplicationClient1">
+      <change afterPath="$PROJECT_DIR$/../WineOrderClient/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WineOrderClient/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WineOrderClient/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WineOrderClient/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WineOrderClient/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WineOrderClient/src/main/java/br/com/fiap/winery/ApplicationClient2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/Winery.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/Winery.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/fiap/winery/ApplicationClient1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/fiap/winery/ApplicationClient1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +35,12 @@
     &quot;assignee&quot;: &quot;Malice112&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/challengelotus/Winery.git&quot;,
-    &quot;accountId&quot;: &quot;12eb99c3-e4ee-4a5f-a749-932fd2bbde1c&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/challengelotus/Winery.git",
+    "accountId": "2074f714-2bf6-4d8f-953d-ce6af781be45"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 4

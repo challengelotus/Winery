@@ -1,5 +1,6 @@
 package br.com.fiap.winery;
 
+import br.com.fiap.winery.stubclasses.WineStockService;
 import jakarta.xml.ws.Service;
 
 import javax.xml.namespace.QName;
@@ -16,5 +17,9 @@ public class ApplicationClient2 {
         QName qName = new QName(TARGET, NAME);
 
         Service service = Service.create(url, qName);
+        WineStockService wineStockService = service.getPort(WineStockService.class);
+
+        String order = wineStockService.placeOrder("Vinho Tinto", 2);
+        System.out.println(order);
     }
 }

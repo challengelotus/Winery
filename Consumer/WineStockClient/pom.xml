@@ -16,34 +16,13 @@
     </properties>
 
     <dependencies>
+        <!-- Source: https://mvnrepository.com/artifact/com.sun.xml.ws/jaxws-rt -->
         <dependency>
             <groupId>com.sun.xml.ws</groupId>
             <artifactId>jaxws-rt</artifactId>
-            <version>4.0.1</version>
+            <version>4.0.3</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>com.sun.xml.ws</groupId>
-                <artifactId>jaxws-maven-plugin</artifactId>
-                <version>3.0.0</version>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>wsimport</goal>
-                        </goals>
-                        <configuration>
-                            <wsdlUrls>
-                                <wsdlUrl>http://localhost:8085/WineStockService?wsdl</wsdlUrl>
-                            </wsdlUrls>
-                            <packageName>br.com.fiap.winery.client</packageName>
-                            <sourceDestDir>${project.build.directory}/generated-sources/wsimport</sourceDestDir>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-    </build>
 </project>

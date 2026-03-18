@@ -11,5 +11,9 @@ public class Loader {
 
         System.out.println("Serviço publicado!");
 
+        WineWarningServiceImplementation wineWarning = new WineWarningServiceImplementation();
+        Endpoint.publish("http://localhost:8086/WineWarningService", wineWarning);
+        System.out.println("Serviço publicado!");
+
     }
 }

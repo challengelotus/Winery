@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9caf155-38b5-46b0-bb67-eb68acccead7" name="Changes" comment="criando classe ApplicationClient1" />
+    <list default="true" id="a9caf155-38b5-46b0-bb67-eb68acccead7" name="Changes" comment="criando classe ApplicationClient1">
+      <change beforePath="$PROJECT_DIR$/../WineOrderClient/src/main/java/br/com/fiap/winery/ApplicationClient2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WineOrderClient/src/main/java/br/com/fiap/winery/ApplicationClient2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,12 +29,12 @@
     &quot;assignee&quot;: &quot;Malice112&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/challengelotus/Winery.git",
-    "accountId": "3866abdb-b6b6-479c-84f0-c4e01f7f7322"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/challengelotus/Winery.git&quot;,
+    &quot;accountId&quot;: &quot;2074f714-2bf6-4d8f-953d-ce6af781be45&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 4
@@ -44,29 +47,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ApplicationClient1.executor": "Run",
-    "Maven.WineStockClient [clean].executor": "Run",
-    "Maven.WineStockClient [compile].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Documentos/Fiap/3ano/WebService/Winery/Consumer/WineStockClient",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ApplicationClient1.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.WineStockClient [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.WineStockClient [compile].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/labsfiap/Desktop/Winery/Consumer/WineStockClient&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.32098.37" />
-      </set>
-    </attachedChunks>
-  </component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a9caf155-38b5-46b0-bb67-eb68acccead7" name="Changes" comment="" />

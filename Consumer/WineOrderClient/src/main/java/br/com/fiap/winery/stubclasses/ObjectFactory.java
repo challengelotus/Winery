@@ -24,8 +24,10 @@ import jakarta.xml.bind.annotation.XmlRegistry;
 @XmlRegistry
 public class ObjectFactory {
 
-    private static final QName _SendWarn_QNAME = new QName("http://winery.fiap.com.br/", "sendWarn");
-    private static final QName _SendWarnResponse_QNAME = new QName("http://winery.fiap.com.br/", "sendWarnResponse");
+    private static final QName _GetMenu_QNAME = new QName("http://winery.fiap.com.br/", "getMenu");
+    private static final QName _GetMenuResponse_QNAME = new QName("http://winery.fiap.com.br/", "getMenuResponse");
+    private static final QName _PlaceOrder_QNAME = new QName("http://winery.fiap.com.br/", "placeOrder");
+    private static final QName _PlaceOrderResponse_QNAME = new QName("http://winery.fiap.com.br/", "placeOrderResponse");
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: br.com.fiap.winery.stubclasses
@@ -35,49 +37,95 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link SendWarn }
+     * Create an instance of {@link GetMenu }
      * 
      * @return
-     *     the new instance of {@link SendWarn }
+     *     the new instance of {@link GetMenu }
      */
-    public SendWarn createSendWarn() {
-        return new SendWarn();
+    public GetMenu createGetMenu() {
+        return new GetMenu();
     }
 
     /**
-     * Create an instance of {@link SendWarnResponse }
+     * Create an instance of {@link GetMenuResponse }
      * 
      * @return
-     *     the new instance of {@link SendWarnResponse }
+     *     the new instance of {@link GetMenuResponse }
      */
-    public SendWarnResponse createSendWarnResponse() {
-        return new SendWarnResponse();
+    public GetMenuResponse createGetMenuResponse() {
+        return new GetMenuResponse();
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SendWarn }{@code >}
+     * Create an instance of {@link PlaceOrder }
+     * 
+     * @return
+     *     the new instance of {@link PlaceOrder }
+     */
+    public PlaceOrder createPlaceOrder() {
+        return new PlaceOrder();
+    }
+
+    /**
+     * Create an instance of {@link PlaceOrderResponse }
+     * 
+     * @return
+     *     the new instance of {@link PlaceOrderResponse }
+     */
+    public PlaceOrderResponse createPlaceOrderResponse() {
+        return new PlaceOrderResponse();
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetMenu }{@code >}
      * 
      * @param value
      *     Java instance representing xml element's value.
      * @return
-     *     the new instance of {@link JAXBElement }{@code <}{@link SendWarn }{@code >}
+     *     the new instance of {@link JAXBElement }{@code <}{@link GetMenu }{@code >}
      */
-    @XmlElementDecl(namespace = "http://winery.fiap.com.br/", name = "sendWarn")
-    public JAXBElement<SendWarn> createSendWarn(SendWarn value) {
-        return new JAXBElement<>(_SendWarn_QNAME, SendWarn.class, null, value);
+    @XmlElementDecl(namespace = "http://winery.fiap.com.br/", name = "getMenu")
+    public JAXBElement<GetMenu> createGetMenu(GetMenu value) {
+        return new JAXBElement<>(_GetMenu_QNAME, GetMenu.class, null, value);
     }
 
     /**
-     * Create an instance of {@link JAXBElement }{@code <}{@link SendWarnResponse }{@code >}
+     * Create an instance of {@link JAXBElement }{@code <}{@link GetMenuResponse }{@code >}
      * 
      * @param value
      *     Java instance representing xml element's value.
      * @return
-     *     the new instance of {@link JAXBElement }{@code <}{@link SendWarnResponse }{@code >}
+     *     the new instance of {@link JAXBElement }{@code <}{@link GetMenuResponse }{@code >}
      */
-    @XmlElementDecl(namespace = "http://winery.fiap.com.br/", name = "sendWarnResponse")
-    public JAXBElement<SendWarnResponse> createSendWarnResponse(SendWarnResponse value) {
-        return new JAXBElement<>(_SendWarnResponse_QNAME, SendWarnResponse.class, null, value);
+    @XmlElementDecl(namespace = "http://winery.fiap.com.br/", name = "getMenuResponse")
+    public JAXBElement<GetMenuResponse> createGetMenuResponse(GetMenuResponse value) {
+        return new JAXBElement<>(_GetMenuResponse_QNAME, GetMenuResponse.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link PlaceOrder }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link PlaceOrder }{@code >}
+     */
+    @XmlElementDecl(namespace = "http://winery.fiap.com.br/", name = "placeOrder")
+    public JAXBElement<PlaceOrder> createPlaceOrder(PlaceOrder value) {
+        return new JAXBElement<>(_PlaceOrder_QNAME, PlaceOrder.class, null, value);
+    }
+
+    /**
+     * Create an instance of {@link JAXBElement }{@code <}{@link PlaceOrderResponse }{@code >}
+     * 
+     * @param value
+     *     Java instance representing xml element's value.
+     * @return
+     *     the new instance of {@link JAXBElement }{@code <}{@link PlaceOrderResponse }{@code >}
+     */
+    @XmlElementDecl(namespace = "http://winery.fiap.com.br/", name = "placeOrderResponse")
+    public JAXBElement<PlaceOrderResponse> createPlaceOrderResponse(PlaceOrderResponse value) {
+        return new JAXBElement<>(_PlaceOrderResponse_QNAME, PlaceOrderResponse.class, null, value);
     }
 
 }

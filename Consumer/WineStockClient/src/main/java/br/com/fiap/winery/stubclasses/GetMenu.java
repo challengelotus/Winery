@@ -7,9 +7,9 @@ import jakarta.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for getMenu complex type</p>.
+ * <p>Classe Java de getMenu complex type.</p>
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.</p>
+ * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.</p>
  * 
  * <pre>{@code
  * <complexType name="getMenu">

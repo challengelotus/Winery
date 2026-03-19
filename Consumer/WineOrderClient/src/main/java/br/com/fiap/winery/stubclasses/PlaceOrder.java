@@ -7,9 +7,9 @@ import jakarta.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for placeOrder complex type</p>.
+ * <p>Classe Java de placeOrder complex type.</p>
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.</p>
+ * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.</p>
  * 
  * <pre>{@code
  * <complexType name="placeOrder">
@@ -37,7 +37,7 @@ public class PlaceOrder {
     protected int arg1;
 
     /**
-     * Gets the value of the arg0 property.
+     * Obtém o valor da propriedade arg0.
      * 
      * @return
      *     possible object is
@@ -49,7 +49,7 @@ public class PlaceOrder {
     }
 
     /**
-     * Sets the value of the arg0 property.
+     * Define o valor da propriedade arg0.
      * 
      * @param value
      *     allowed object is
@@ -61,7 +61,7 @@ public class PlaceOrder {
     }
 
     /**
-     * Gets the value of the arg1 property.
+     * Obtém o valor da propriedade arg1.
      * 
      */
     public int getArg1() {
@@ -69,7 +69,7 @@ public class PlaceOrder {
     }
 
     /**
-     * Sets the value of the arg1 property.
+     * Define o valor da propriedade arg1.
      * 
      */
     public void setArg1(int value) {

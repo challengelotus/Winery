@@ -8,12 +8,12 @@ import jakarta.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Classe Java de getMenuResponse complex type.</p>
+ * <p>Classe Java de sendWarnResponse complex type.</p>
  * 
  * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.</p>
  * 
  * <pre>{@code
- * <complexType name="getMenuResponse">
+ * <complexType name="sendWarnResponse">
  *   <complexContent>
  *     <restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       <sequence>
@@ -27,10 +27,10 @@ import jakarta.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "getMenuResponse", propOrder = {
+@XmlType(name = "sendWarnResponse", propOrder = {
     "_return"
 })
-public class GetMenuResponse {
+public class SendWarnResponse {
 
     @XmlElement(name = "return")
     protected String _return;

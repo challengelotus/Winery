@@ -8,9 +8,9 @@ import jakarta.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for placeOrderResponse complex type</p>.
+ * <p>Classe Java de placeOrderResponse complex type.</p>
  * 
- * <p>The following schema fragment specifies the expected content contained within this class.</p>
+ * <p>O seguinte fragmento do esquema especifica o conteúdo esperado contido dentro desta classe.</p>
  * 
  * <pre>{@code
  * <complexType name="placeOrderResponse">
@@ -36,7 +36,7 @@ public class PlaceOrderResponse {
     protected String _return;
 
     /**
-     * Gets the value of the return property.
+     * Obtém o valor da propriedade return.
      * 
      * @return
      *     possible object is
@@ -48,7 +48,7 @@ public class PlaceOrderResponse {
     }
 
     /**
-     * Sets the value of the return property.
+     * Define o valor da propriedade return.
      * 
      * @param value
      *     allowed object is
